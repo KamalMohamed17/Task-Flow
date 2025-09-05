@@ -168,14 +168,26 @@ body{
     -webkit-backdrop-filter: blur(6.1px);
     border: 1px solid rgba(0, 0, 0, 0.22);
     margin-left: 13%;
+    align-items: center;
     justify-content: center;
 }
 .customer-avatar {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background: #747373;
+    background: #ffffff;
     margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.714);
+}
+.avatar-icon {
+    width: 28px;
+    height: 28px;
+    color: #000000;
+    display: block;
 }
 .customer-info {
     margin-bottom: 4px;
