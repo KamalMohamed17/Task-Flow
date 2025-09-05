@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskflow</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Taskflow</h1>
+    </div>
+        <div class="intro">
+        <h2>Make your Tasks Flow</h2>
+        <button class = "button">Get Started</button>
+        </div>
+        <div class="main">
+            <div id="head">
+            <h3>Features</h3>
+            </div>
+            <div class="features">
+                <div><i class ="icons" data-lucide="circle-check"></i></div>
+                <p>smart Task Mangment</p>
+                <p>Easily create, oragnize, and prioritize</p>
+            </div>
+            <div class="features">
+                <div><i class ="icons" data-lucide="calendar-days"></i></div>
+                <p>Calnder Integration</p>
+                <p>Sync your tasks with your calender</p>
+            </div>
+            <div class="features">
+                <div><i class ="icons" data-lucide="bell-ring"></i></div>
+                <p>Reminders and Notifications</p>
+                <p>Never miss a deadline with timely reminders</p>
+            </div>
+        </div>
+        <h3 class = "Qoute" >Loved by productive teams and indevdiuals</h3>
+        <div class = "coustmer">
+                <div class = "customer-card">
+                    <div class = "customer-avatar"></div>
+                    <div class = "customer-info">
+                        <div class = "customer-name">Sarah</div>
+                        <div class = "customer-role">Freelancer</div>
+                    </div>
+                    <div class = "customer-quote">TaskFlow keeps me on top<br>of deadlines!</div>
+                </div>
+                <div class = "customer-card">
+                    <div class = "customer-avatar"></div>
+                    <div class = "customer-info">
+                        <div class = "customer-name">John</div>
+                        <div class = "customer-role">Project Manager</div>
+                    </div>
+                    <div class = "customer-quote">A must-have in our team.</div>
+                </div>
+        </div>
+        <h3 class = "Qoute">Choose Your Plan</h3>
+        <div class="main">
+            <div class="plans">
+                <p>Free</p>
+                <p>Basic task management features</p>
+                <p>Calendar view (limited)</p>
+                <p>Up to 1 project</p>
+                <p>Share with 2 collaborators</p>
+                <p>No advanced analytics</p>
+                <p>No integrations</p>
+                <button class="button">Get Started</button>
+            </div>
+            <div class="plans">
+                <p>Pro</p>
+                <p>$9.99/month</p>
+                <p>Everything in Free</p>
+                <p>Unlimited projects</p>
+                <p>Advanced calendar & reminders</p>
+                <p>Integrations (Google Calendar)</p>
+                <p>Up to 10 collaborators</p>
+                <p>No team analytics</p>
+                <button class="button">Get Started</button>
+            </div>
+            <div class="plans">
+                <p>Teams</p>
+                <p>$19.99/month</p>
+                <p>Everything in Pro</p>
+                <p>Unlimited collaborators</p>
+                <p>Team analytics & reporting</p>
+                <p>Role-based access control</p>
+                <p>Admin dashboard</p>
+                <p>Dedicated account manager</p>
+                <button class="button">Get Started</button>
+            </div>
+        </div>
+            <script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+</script>
+<script>
+(function() {
+    let lastWidth = window.innerWidth;
+    window.addEventListener('resize', function() {
+    if (window.innerWidth !== lastWidth) {
+        lastWidth = window.innerWidth;
+        location.reload();
+    }
+});
+})();
+</script>
+</body>
+</html>
