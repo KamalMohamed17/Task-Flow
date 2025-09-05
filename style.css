@@ -16,8 +16,8 @@ body{
     align-items: center;
     justify-content: center;
     background: 
-    linear-gradient(135deg, #0be6c1d6 0%, #ea3300 100%),
-    linear-gradient(225deg, #ea3300 0%, #0be6c2 100%); 
+    linear-gradient(135deg, #ffffff 0%, #000000 100%),
+    linear-gradient(225deg, #000000 0%, #ffffff 100%); 
     background-blend-mode: overlay;
     border-radius: 50%;
 }
@@ -32,6 +32,12 @@ body{
     align-items: center;
     justify-content: center;
     height: 100%;
+    background: linear-gradient(90deg, #333 50%, #ffffffaf 50%);
+    background-blend-mode: overlay;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 
 .intro{
@@ -54,7 +60,7 @@ body{
 .button{
     display: inline-block;
     color: #fff;
-    background: linear-gradient(90deg, #ea3300 60%, #ff7e5f 100%);
+    background: linear-gradient(90deg, #333 60%, #333333b7 100%);
     padding: 12px 32px;
     margin-bottom: 2%;
     text-decoration: none;
@@ -70,7 +76,7 @@ body{
 }
 
 .button:hover{
-    background: linear-gradient(90deg, #0be6c1 60%, #00c3a0 100%);
+    background: linear-gradient(90deg, #fff 60%, #f9f9f986 100%);
     color: #000000;
     transform: translateY(-2px) scale(1.04);
     box-shadow: 0 4px 16px rgba(0,0,0,0.13);
@@ -161,7 +167,8 @@ body{
     backdrop-filter: blur(6.1px);
     -webkit-backdrop-filter: blur(6.1px);
     border: 1px solid rgba(0, 0, 0, 0.22);
-    margin-left: 2%;
+    margin-left: 13%;
+    justify-content: center;
 }
 .customer-avatar {
     width: 44px;
